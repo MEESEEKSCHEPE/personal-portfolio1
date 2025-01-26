@@ -1,0 +1,38 @@
+/* Estilo para imágenes */
+.gallery img {
+  width: 100%;
+  max-width: 300px; /* Tamaño máximo */
+  height: auto; /* Mantener proporción */
+  margin: 10px; /* Espaciado entre imágenes */
+}
+
+.gallery img {
+  width: 100%; /* Asegúrate de que ocupen todo el ancho del contenedor */
+  max-width: 500px; /* Limita el ancho máximo */
+  height: auto; /* Mantén la proporción original de las imágenes */
+  margin: 15px; /* Espacio entre las imágenes */
+  object-fit: cover; /* Recorta la imagen si es necesario */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera para estética */
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las imágenes se ajusten automáticamente en filas */
+  justify-content: center; /* Centra las imágenes horizontalmente */
+  gap: 20px; /* Espacio entre las imágenes */
+}
+
+.profile-card img {
+  width: 350px; /* Tamaño específico para la foto de perfil */
+  height: 350px;
+  object-fit: cover; /* Recorta la imagen si no encaja perfectamente */
+  border-radius: 70%; /* Hace que la imagen sea circular */
+}
+
+body {
+  background-image: url("fondo.jpg"); /* Reemplaza con la ruta de tu imagen */
+  background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center; /* Centra la imagen */
+}
